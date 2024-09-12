@@ -126,3 +126,46 @@ outerFn()
 // const out = outerFn()
 // out()
 
+//STRING IN DETAILS
+const single = 'This is a string written inside of a single quote'
+console.log(single)
+const double = "This is a string written inside of a double quote"
+console.log(double)
+const backticks = `This is a string written inside of a backticks quote`
+console.log(backticks)
+
+// Example 1
+const single1 = '${2+2}'
+console.log(single1)
+
+const double1 = "${2+2}"
+console.log(double1)
+
+const backticks1 = `${2+2}`
+console.log(backticks1)
+
+// Example 2 NB: String inside string
+const greetings = "I'm Emmanuel"
+console.log(greetings)
+
+// Example 3
+const greetings2 = `Hi, I'm John, but people call me "Johnny"`
+console.log(greetings2)
+
+// Escape character
+const greeting2 = 'Hi, I\'m Teddy but people call me \'Teddy-A\' '
+console.log(greeting2)
+
+// String length 
+// Example 4 NB: return the length of string
+const name1 = "Emmanuel Teddy, Alimi Muaz"
+console.log(name1.length)
+
+// Example 4
+const firstLetter = name1[4]
+console.log(firstLetter)
+
+const lastLetter = name1[name1.length-8]
+console.log(lastLetter)
+
+// Change string case
