@@ -169,3 +169,21 @@ const lastLetter = name1[name1.length-8]
 console.log(lastLetter)
 
 // Change string case
+
+const mixedStringCase = "Hello, how are you?"
+const lowerCase = mixedStringCase.toLowerCase()
+console.log(lowerCase)
+
+const upperCase = mixedStringCase.toUpperCase()
+console.log(upperCase)
+
+// Searching for a substring
+
+// string.indexof
+const exampleStr = "I love dogs, he said dogs are great!"
+console.log(exampleStr.indexOf("love"))
+
+// Last indexof
+const sentence = "I am hungry, I need to eat good food"
+// const lastIndexOf = sentence.lastIndexOf("eat")
+console.log(sentence.lastIndexOf("eat"))
